@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/img/Logo.png" type="image/x-icon">
+    <title>Calculer votre IMC</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/Logo.png" width="45%"alt="" srcset="">
+            </div>
+            <div class="lerest">
+                <ul>
+                    <li><a href="#calcul">Calculer Votre Imc</a></li>
+                    <li><a href="#questce">Qu'est ce que l'imc ?</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+
+<main>
+    <section class="sectionCalculImc">      
+            <div class="titreImc">
+                <p>Calcul De Votre IMC</p>
+            </div>
+            <div class="descriptionTitreImc">
+                L’IMC correspond à l’Indice de Masse Corporelle. </br>Il est défini selon la formule suivante :
+                IMC = poids (kg) / taille² (m)
+            </div>    
+
+        <div class="calculeImc" id="calcul">
+            <form action="">
+                <div class="inputImc">
+                    <div class="coolinput">
+                        <label for="input" class="text">Poids (kg) :</label>
+                        <input type="text" placeholder="Indiquer votre Poids" name="input" class="input">
+                    </div>
+                    <div class="coolinput">
+                        <label for="input" class="text">Taille (cm) :</label>
+                        <input type="text" placeholder="Indiquer votre taille en cm" name="input" class="input">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="sectionInfoImc">
+    <div class="titreInfo">
+        IMC
+    </div>
+    <div class="Info" id="questce">
+        L'IMC (Indice de Masse Corporelle) est une mesure couramment 
+        utilisée pour évaluer si une personne a un poids corporel considéré comme normal,
+        en surpoids ou en état de maigreur. Il est calculé en utilisant la formule suivante :
+        IMC = poids (en kilogrammes) / taille (en mètres)².
+    </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>
